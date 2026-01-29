@@ -1,6 +1,6 @@
 /* Change the background of the entire visible page */
 body {
-    background-color:teel /* Change the background of the entire visible page */
+    background-color:red /* Change the background of the entire visible page */
 /* dark red*/
 }
 
@@ -14,5 +14,5 @@ p {
 /* Style for the main heading */
 h1 {
     text-align: center; /* Puts the heading in the middle */
-    border: 2px solid red; /* Adds an orange border around the heading */
+    border: 2px solid green; /* Adds an orange border around the heading */
     padding: 10px; /* Adds space inside the border */
