@@ -1,18 +1,44 @@
-/* Change the background of the entire visible page */
 body {
-    background-color:red /* Change the background of the entire visible page */
-/* dark red*/
+    background-color: #1a1a1a; /* Dark theme like the Octagon */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
 }
 
-/* Style for all paragraphs */
-p {
-    color: brightred;
-    font-size: 16px;
-    font-family: 'Times New Roman', serif;
-}
-
-/* Style for the main heading */
 h1 {
-    text-align: center; /* Puts the heading in the middle */
-    border: 2px solid green; /* Adds an orange border around the heading */
-    padding: 10px; /* Adds space inside the border */
+    font-size: 3rem;
+    color: #d4af37; /* Gold for the belt */
+    margin-bottom: 0;
+}
+
+.nickname {
+    font-style: italic;
+    color: #888;
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #d4af37;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.quote-card {
+    background: #2b2b2b;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-left: 5px solid #d4af37;
+    font-style: italic;
+}
+
+.stats {
+    margin-top: 40px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
